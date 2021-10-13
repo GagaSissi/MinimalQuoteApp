@@ -12,3 +12,14 @@ buttonPress.addEventListener("click", function () {
       pChange.innerText = data.data[0].quoteAuthor;
     });
 });
+
+// Test aus Vorlesung Nicos beschreibung nachvollziehen. 13.10.2021
+
+// document.querySelector("button").addEventListener('click', function(){
+// //let promise = fetch("https://quote-garden.herokuapp.com/api/v3/quotes/random")
+// let chucknorris = fetch("https://api.chucknorris.io/jokes/random")
+//   chucknorris.then(function(response) {
+//         return response.json()
+//       })
+//   .then(console.log(data)
+// })

@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7em;
+}
+
+header {
+  background: lightblue;
+  padding: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h1 {
+  margin-right: 1em;
+}
+
+button {
+  font-size: 1.5rem;
+  margin-left: 1em;
+  color: white;
+  background-color: blue;
+  width: 10em;
+  height: 2em;
+  border-radius: 10px;
+  border: none;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+section {
+  max-width: 30rem;
+  margin: 2em 2em 5em;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+p::before {
+  content: "🎉➡";
+}
